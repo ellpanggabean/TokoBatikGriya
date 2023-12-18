@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+
+        android:id="@+id/img_2"
+        android:layout_width="350dp"
+        android:layout_height="146dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_2"
+        android:text="Toko Griya batik Good Griya"
+        android:gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="170dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:id="@+id/txt_1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_1"
+        android:text="Description: Baju Batik adalah salah satu fashion item yang paling
+        banyak diburu oleh pembeli, toko kami menyediakan
+        kualitas produk yang sangat bagus. Toko kami menyediakan
+        berbagai macam jenis ukuran  yaitu:
+        Ukuran yang tersedia: S-XXL
+        Detail ukuran: Lingkar dada, lebar bahu,
+        lingkar pinggang, panjang baju
+        Material/bahan pakaian: Katun, wolfis, dan lainnya
+        Warna seluruh varian"
+        android:fontFamily="@font/poppinsregular"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:id="@+id/txt_2" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_2"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="LOGIN"
+        app:backgroundTint="#254965"
+        android:fontFamily="@font/poppinsbold"
+        />
+
+    <Button
+        android:id="@+id/btn_daftar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/txt_2"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="center"
+        android:text="DAFTAR"
+        app:backgroundTint="#254965"
+        android:fontFamily="@font/poppinsbold"
+        />
+
+</LinearLayout>

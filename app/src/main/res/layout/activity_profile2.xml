@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText"
+    android:background="@drawable/bg0"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="28dp"
+            android:text="Di Halaman ini Anda dapat melihat Data Anda"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+
+        <LinearLayout
+            android:layout_marginTop="100sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="60dp"
+            android:id="@+id/ly_1">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:text="Nama"
+                android:textSize="18dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/white"
+                android:id="@+id/edt_fullname"
+                android:fontFamily="@font/poppinsregular"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="Email"
+                android:paddingLeft="10dp"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/poppinsregular"
+                android:id="@+id/edt_email"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_back0"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/mainGrid"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="140dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="kembali"
+            android:textColor="@color/white"
+            android:textSize="19dp"
+            app:backgroundTint="#607274" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

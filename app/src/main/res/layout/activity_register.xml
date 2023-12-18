@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/cardImage1"
+        android:layout_width="395dp"
+        android:layout_height="195dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:contentDescription="Card Image"
+        android:gravity="center_horizontal|center_vertical"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo" />
+
+
+
+    <TextView
+        android:id="@+id/R_txt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="DAFTAR!!"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/ly_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_txt_1"
+        android:layout_marginTop="18dp"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+
+        <EditText
+            android:id="@+id/edt_fullname"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="10dp"
+            android:background="#e1e1e1"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/poppinsregular"
+            android:hint="Enter you Full Name"
+            android:paddingLeft="10dp"
+            android:textSize="18dp" />
+
+
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/poppinsregular"
+            android:hint="Enter your Email"
+            android:paddingLeft="10dp"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/poppinsregular"
+            android:hint="Create password"
+            android:paddingLeft="10dp"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/edt_conf_password"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/poppinsregular"
+            android:hint="Confirm password"
+            android:paddingLeft="10dp"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ly_1"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:width="300dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Register"
+        app:backgroundTint="#254965"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/R_btn_1">
+
+    </LinearLayout>
+
+</RelativeLayout>
